@@ -2,3 +2,48 @@
    margin: 0;
    padding: 0; 
 }
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 4rem;
+    width: 100%;
+    max-width: 1280px;
+    margin: o auto;
+    margin-bottom: 6rem;
+}
+
+.projects-section-header {
+    max-width: 640px;
+    margin: 0 auto 6rem auto;
+    border-bottom: 0.2rem solid white;
+}
+
+h2 {
+    font-size: 4.2rem;
+}
+
+h1, h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+
+.projects-section {
+    text-align: center;
+    padding: 10rem 2rem;
+}
+
+.project-image {
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+}
+
+img {
+    display: block;
+}

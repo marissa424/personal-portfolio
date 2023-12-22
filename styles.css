@@ -7,6 +7,44 @@
     box-sizing: inherit;
 }
 
+body {
+    background-color: #e5e5e5;
+}
+
+#welcome {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 200px;
+    font-size: 150px;
+
+}
+
+#navbar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: black;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+
+}
+
+.nav li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+li {
+    list-style: none;
+}
+
 .projects-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -14,13 +52,19 @@
     width: 100%;
     max-width: 1280px;
     margin: o auto;
-    margin-bottom: 6rem;
+    /* margin-bottom: 6rem; */
 }
 
 .projects-section-header {
     max-width: 640px;
     margin: 0 auto 6rem auto;
-    border-bottom: 0.2rem solid white;
+    /* border-bottom: 0.2rem solid white; */
+}
+
+.project-tile {
+    margin-top: 20px;
+    padding-top: 20px;
+    color: black;
 }
 
 h2 {
@@ -48,21 +92,6 @@ img {
     display: block;
 }
 
-#navbar {
-    position: fixed;
-    width: 100%;
-    top: 0;
-    left: 0;
-    background-color: black;
-    color: white;
-    font-family: 'Raleway', sans-serif;
-    padding: 1em;
-}
-
-li {
-    list-style: none;
-}
-
 a {
     color: white;
     list-style: none;
@@ -70,13 +99,39 @@ a {
 }
 
 a:hover {
-    color: white;
-    background: red;
+    color: black;
+    
 }
 
 @media (hover: hover) {
     a:hover {
-        color: red;
-        background: black;
+        color: lightblue;
     }
+}
+
+.contact-section-header p {
+    font-family: 'Raleway', sans-serif;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.contact-details .btn {
+    text-align: center;
+}
+
+.footer {
+    font-family: 'Raleway', sans-serif;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+footer p {
+    margin-top: 20px;
+    margin-bottom: 20px;
 }

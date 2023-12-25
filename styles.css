@@ -92,10 +92,22 @@ img {
     display: block;
 }
 
-a {
+header a {
     color: white;
     list-style: none;
     text-decoration: none; 
+}
+
+footer a {
+    color: black;
+    list-style: none;
+    text-decoration: none;
+}
+
+.contact-links a {
+    color: black;
+    list-style: none;
+    padding-left: 20px;
 }
 
 a:hover {
@@ -113,7 +125,7 @@ a:hover {
     font-family: 'Raleway', sans-serif;
     padding-bottom: 10px;
     margin-top: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     margin-left: 20px;
     text-align: center;
     font-size: 30px;
@@ -121,6 +133,7 @@ a:hover {
 
 .contact-details .btn {
     text-align: center;
+    
 }
 
 .footer {
@@ -129,9 +142,10 @@ a:hover {
     margin-bottom: 20px;
     margin-left: 20px;
     font-size: 20px;
+    padding-top: 0;
 }
 
 footer p {
-    margin-top: 20px;
+    margin-top: 10px;
     margin-bottom: 20px;
 }
